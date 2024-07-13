@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 100
+exclude =
+    .tox,
+    .git,
+    env/*,
+    */migrations/*,
+    */static/CACHE/*,
+    docs
+ignore = D101,D102,W504
